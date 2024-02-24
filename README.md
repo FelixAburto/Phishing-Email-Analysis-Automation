@@ -1,4 +1,4 @@
-<h1>Phishing Email Analysis Automation With Python</h1>
+<h1>Phishing Email Analysis Automation with Python</h1>
 
 <h2>Description</h2>
 Phishing emails are a common way for attackers to access systems, so it's important for cybersecurity analysts to be skilled in Phishing Analysis. This helps prevent security incidents from these kinds of attacks. However, manually pulling out the needed details from emails for this analysis can be a dull and time-consuming task, especially with the large number of emails we get every day. My project aims to solve this by automating the process of extracting the email artifacts necessary for the analysis.  This way, analysts can start analyzing phishing emails and preparing their reports more quickly.
