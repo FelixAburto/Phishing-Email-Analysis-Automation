@@ -26,7 +26,7 @@ Opening the script:  <br/>
 <img src="https://i.imgur.com/lfUezb9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Asks User for the file path of the EML file: <br/>
+Asks user for the file path of the EML file: <br/>
 <img src="https://i.imgur.com/kermg3Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
