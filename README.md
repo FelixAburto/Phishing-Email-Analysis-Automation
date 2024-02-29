@@ -15,6 +15,10 @@ Phishing emails are a common way for attackers to access systems, so it's import
 
 - <b>Windows 11</b> (23H2)
 
+<h2>Program Description</h2>
+
+This program is designed to extract to extract key information from eml files using regular expressions. it is also designed to extract any and all file attatchments from the eml file and calculate the SHA256 and MD5 hash values of each attatchment.
+
 <h2>Program walk-through:</h2>
 
 <p align="center">
@@ -38,19 +42,9 @@ Files are outputed into the same directory as the script. For the email analysis
 <img src="https://i.imgur.com/qTEZMpL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-The txt file will contain email artifacts such as: SPF and DKIM Authentication Results, Sender IP Address, Reverse DNS, Email Address of the Sender, Return Path, Subject Line, Recipient Email Addresses, CC/BCC, Date, Reply to Addresses, Sanatized URLs, and hashes of any detected attatchments.<br/>
+The txt file will contain email artifacts such as: SPF and DKIM Authentication Results, Sender IP Address, Reverse DNS, Email Address of the Sender, Return Path, Subject Line, Recipient Email Addresses, CC/BCC, Date, Reply to Addresses, Sanatized URLs, and hashes of any detected attatchments:<br/>
 <img src="https://i.imgur.com/OAVBMIS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Finally the analyst can quickly jump into conducting the rest of the phishing analysis such as inputing the hashes in to VirusTotal to determine if attachments are linked to any documented malware.  <br/>
 </p>
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
