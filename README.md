@@ -3,8 +3,10 @@
 <h2>Description</h2>
 Phishing emails are a common way for attackers to access systems, so it's important for cybersecurity analysts to be skilled in Phishing Analysis. This helps prevent security incidents from these kinds of attacks. However, manually pulling out the needed details from emails for this analysis can be a dull and time-consuming task, especially with the large number of emails we get every day. My project aims to solve this by automating the process of extracting the email artifacts necessary for the analysis.  This way, analysts can start analyzing phishing emails and preparing their reports more quickly.
 
+<br/>
+<br/>
+
 ***(All email addresses used in this demo are dummy email addresses and will be deleted after the project)***
-<br />
 
 
 <h2>Languages Used</h2>
@@ -17,7 +19,7 @@ Phishing emails are a common way for attackers to access systems, so it's import
 
 <h2>Program Description</h2>
 
-This program is designed to extract to extract key information from eml files using regular expressions. it is also designed to extract any and all file attatchments from the eml file and calculate the SHA256 and MD5 hash values of each attatchment.
+This program is designed to extract key information from eml files using regular expressions. It is also designed to extract any and all file attatchments from the eml file and calculate the SHA256 and MD5 hash values of each attachment.
 
 <h2>Program walk-through:</h2>
 
@@ -46,7 +48,6 @@ The txt file will contain email artifacts such as: SPF and DKIM Authentication R
 <img src="https://i.imgur.com/OAVBMIS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Finally the analyst can quickly jump into conducting the rest of the phishing analysis such as inputing the hashes in to VirusTotal to determine if attachments are linked to any documented malware.  <br/>
 </p>
 
 <h2>Phishing Analysis Report</h2>
