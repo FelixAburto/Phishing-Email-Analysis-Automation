@@ -19,7 +19,7 @@ Phishing emails are a common way for attackers to access systems, so it's import
 
 <h2>Program Description</h2>
 
-This program is designed to extract key information from eml files using regular expressions. It is also designed to extract any and all file attatchments from the eml file and calculate the SHA256 and MD5 hash values of each attachment.
+This program is designed to extract key information from eml files using regular expressions. It is also designed to extract any and all file attachments from the eml file and calculate the SHA256 and MD5 hash values of each attachment.
 
 <h2>Program walk-through:</h2>
 
@@ -40,11 +40,11 @@ Output screen once the script is finished running:  <br/>
 <img src="https://i.imgur.com/cbtx1ig.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Files are outputed into the same directory as the script. For the email analysis it will output a txt file. If it detects an attachment it will extract and save it:  <br/>
+Files are outputted into the same directory as the script. For the email analysis it will output a txt file. If it detects an attachment it will extract and save it:  <br/>
 <img src="https://i.imgur.com/qTEZMpL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-The txt file will contain email artifacts such as: SPF and DKIM Authentication Results, Sender IP Address, Reverse DNS, Email Address of the Sender, Return Path, Subject Line, Recipient Email Addresses, CC/BCC, Date, Reply to Addresses, Sanatized URLs, and hashes of any detected attatchments:<br/>
+The txt file will contain email artifacts such as: SPF and DKIM Authentication Results, Sender IP Address, Reverse DNS, Email Address of the Sender, Return Path, Subject Line, Recipient Email Addresses, CC/BCC, Date, Reply to Addresses, Sanitized URLs, and hashes of any detected attachments:<br/>
 <img src="https://i.imgur.com/OAVBMIS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -75,7 +75,7 @@ The email appears to be a malicious attempt to get the user to click on the link
 
 ### Web Artifacts:
 - **URLs in Email:** https[://]www[.]HAXXORSERVER[.]COM]
-- **Analysis:** The analysis done with VirusTotal reveals that this url has been associated with numerious malware.
+- **Analysis:** The analysis done with VirusTotal reveals that this url has been associated with numerous malware.
 
 ### Recommendations:
 
